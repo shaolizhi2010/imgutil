@@ -15,7 +15,6 @@ public class Html2Img {
 		imageGenerator.setSize(new Dimension(300, 500));
 		imageGenerator.saveAsImage("C:\\Users\\lizhi\\Desktop\\temp\\test.png");
 		//imageGenerator.saveAsHtmlWithMap("hello-world.html", "hello-world.png");
-		
 	}
 
 }
