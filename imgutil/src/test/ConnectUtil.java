@@ -28,6 +28,8 @@ public class ConnectUtil {
 			
 			String title = StringUtils.substringBetween(result, "<title>", "</title>");
 			
+			title = Trimer.trim(title);
+			
 			System.out.println(title);
 		
 		} catch ( Exception e) {
@@ -39,7 +41,7 @@ public class ConnectUtil {
 	
 	public static void main(String[] args) throws Exception {
 		
-		for(int i=0;i<100 ;i++){
+		for(int i=0;i<2 ;i++){
 			getTitle();
 		}
 		
